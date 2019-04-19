@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE702D6226987F2002C7605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702D5226987F2002C7605 /* AppDelegate.swift */; };
+		5DE702D8226987F2002C7605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702D7226987F2002C7605 /* ViewController.swift */; };
+		5DE702DB226987F2002C7605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE702D9226987F2002C7605 /* Main.storyboard */; };
+		5DE702DD226987F3002C7605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE702DC226987F3002C7605 /* Assets.xcassets */; };
+		5DE702E0226987F3002C7605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE702DE226987F3002C7605 /* LaunchScreen.storyboard */; };
+		5DE702EB226987F3002C7605 /* AnimalCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702EA226987F3002C7605 /* AnimalCardGameTests.swift */; };
+		5DE702F6226987F3002C7605 /* AnimalCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702F5226987F3002C7605 /* AnimalCardGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DE702E7226987F3002C7605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE702CA226987F2002C7605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE702D1226987F2002C7605;
+			remoteInfo = AnimalCardGame;
+		};
+		5DE702F2226987F3002C7605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DE702CA226987F2002C7605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DE702D1226987F2002C7605;
+			remoteInfo = AnimalCardGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DE702D2226987F2002C7605 /* AnimalCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE702D5226987F2002C7605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DE702D7226987F2002C7605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DE702DA226987F2002C7605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DE702DC226987F3002C7605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE702DF226987F3002C7605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DE702E1226987F3002C7605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE702E6226987F3002C7605 /* AnimalCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE702EA226987F3002C7605 /* AnimalCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCardGameTests.swift; sourceTree = "<group>"; };
+		5DE702EC226987F3002C7605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE702F1226987F3002C7605 /* AnimalCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE702F5226987F3002C7605 /* AnimalCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCardGameUITests.swift; sourceTree = "<group>"; };
+		5DE702F7226987F3002C7605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE702CF226987F2002C7605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE702E3226987F3002C7605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE702EE226987F3002C7605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE702C9226987F2002C7605 = {
+			isa = PBXGroup;
+			children = (
+				5DE702D4226987F2002C7605 /* AnimalCardGame */,
+				5DE702E9226987F3002C7605 /* AnimalCardGameTests */,
+				5DE702F4226987F3002C7605 /* AnimalCardGameUITests */,
+				5DE702D3226987F2002C7605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE702D3226987F2002C7605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE702D2226987F2002C7605 /* AnimalCardGame.app */,
+				5DE702E6226987F3002C7605 /* AnimalCardGameTests.xctest */,
+				5DE702F1226987F3002C7605 /* AnimalCardGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE702D4226987F2002C7605 /* AnimalCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				5DE702D5226987F2002C7605 /* AppDelegate.swift */,
+				5DE702D7226987F2002C7605 /* ViewController.swift */,
+				5DE702D9226987F2002C7605 /* Main.storyboard */,
+				5DE702DC226987F3002C7605 /* Assets.xcassets */,
+				5DE702DE226987F3002C7605 /* LaunchScreen.storyboard */,
+				5DE702E1226987F3002C7605 /* Info.plist */,
+			);
+			path = AnimalCardGame;
+			sourceTree = "<group>";
+		};
+		5DE702E9226987F3002C7605 /* AnimalCardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE702EA226987F3002C7605 /* AnimalCardGameTests.swift */,
+				5DE702EC226987F3002C7605 /* Info.plist */,
+			);
+			path = AnimalCardGameTests;
+			sourceTree = "<group>";
+		};
+		5DE702F4226987F3002C7605 /* AnimalCardGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DE702F5226987F3002C7605 /* AnimalCardGameUITests.swift */,
+				5DE702F7226987F3002C7605 /* Info.plist */,
+			);
+			path = AnimalCardGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE702D1226987F2002C7605 /* AnimalCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE702FA226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGame" */;
+			buildPhases = (
+				5DE702CE226987F2002C7605 /* Sources */,
+				5DE702CF226987F2002C7605 /* Frameworks */,
+				5DE702D0226987F2002C7605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalCardGame;
+			productName = AnimalCardGame;
+			productReference = 5DE702D2226987F2002C7605 /* AnimalCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DE702E5226987F3002C7605 /* AnimalCardGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE702FD226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameTests" */;
+			buildPhases = (
+				5DE702E2226987F3002C7605 /* Sources */,
+				5DE702E3226987F3002C7605 /* Frameworks */,
+				5DE702E4226987F3002C7605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE702E8226987F3002C7605 /* PBXTargetDependency */,
+			);
+			name = AnimalCardGameTests;
+			productName = AnimalCardGameTests;
+			productReference = 5DE702E6226987F3002C7605 /* AnimalCardGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DE702F0226987F3002C7605 /* AnimalCardGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE70300226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameUITests" */;
+			buildPhases = (
+				5DE702ED226987F3002C7605 /* Sources */,
+				5DE702EE226987F3002C7605 /* Frameworks */,
+				5DE702EF226987F3002C7605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DE702F3226987F3002C7605 /* PBXTargetDependency */,
+			);
+			name = AnimalCardGameUITests;
+			productName = AnimalCardGameUITests;
+			productReference = 5DE702F1226987F3002C7605 /* AnimalCardGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE702CA226987F2002C7605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Thanh Le";
+				TargetAttributes = {
+					5DE702D1226987F2002C7605 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					5DE702E5226987F3002C7605 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5DE702D1226987F2002C7605;
+					};
+					5DE702F0226987F3002C7605 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 5DE702D1226987F2002C7605;
+					};
+				};
+			};
+			buildConfigurationList = 5DE702CD226987F2002C7605 /* Build configuration list for PBXProject "AnimalCardGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE702C9226987F2002C7605;
+			productRefGroup = 5DE702D3226987F2002C7605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE702D1226987F2002C7605 /* AnimalCardGame */,
+				5DE702E5226987F3002C7605 /* AnimalCardGameTests */,
+				5DE702F0226987F3002C7605 /* AnimalCardGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE702D0226987F2002C7605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE702E0226987F3002C7605 /* LaunchScreen.storyboard in Resources */,
+				5DE702DD226987F3002C7605 /* Assets.xcassets in Resources */,
+				5DE702DB226987F2002C7605 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE702E4226987F3002C7605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE702EF226987F3002C7605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE702CE226987F2002C7605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE702D8226987F2002C7605 /* ViewController.swift in Sources */,
+				5DE702D6226987F2002C7605 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE702E2226987F3002C7605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE702EB226987F3002C7605 /* AnimalCardGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE702ED226987F3002C7605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE702F6226987F3002C7605 /* AnimalCardGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DE702E8226987F3002C7605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE702D1226987F2002C7605 /* AnimalCardGame */;
+			targetProxy = 5DE702E7226987F3002C7605 /* PBXContainerItemProxy */;
+		};
+		5DE702F3226987F3002C7605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DE702D1226987F2002C7605 /* AnimalCardGame */;
+			targetProxy = 5DE702F2226987F3002C7605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DE702D9226987F2002C7605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE702DA226987F2002C7605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DE702DE226987F3002C7605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE702DF226987F3002C7605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE702F8226987F3002C7605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DE702F9226987F3002C7605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE702FB226987F3002C7605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE702FC226987F3002C7605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalCardGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DE702FE226987F3002C7605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalCardGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalCardGame.app/AnimalCardGame";
+			};
+			name = Debug;
+		};
+		5DE702FF226987F3002C7605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalCardGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalCardGame.app/AnimalCardGame";
+			};
+			name = Release;
+		};
+		5DE70301226987F3002C7605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalCardGame;
+			};
+			name = Debug;
+		};
+		5DE70302226987F3002C7605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AnimalCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimalCardGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE702CD226987F2002C7605 /* Build configuration list for PBXProject "AnimalCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE702F8226987F3002C7605 /* Debug */,
+				5DE702F9226987F3002C7605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE702FA226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE702FB226987F3002C7605 /* Debug */,
+				5DE702FC226987F3002C7605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE702FD226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE702FE226987F3002C7605 /* Debug */,
+				5DE702FF226987F3002C7605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE70300226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE70301226987F3002C7605 /* Debug */,
+				5DE70302226987F3002C7605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE702CA226987F2002C7605 /* Project object */;
+}
