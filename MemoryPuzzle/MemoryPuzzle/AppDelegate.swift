@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  AnimalCardGame
+//  MemoryPuzzle
 //
-//  Created by Thanh Le on 4/18/19.
+//  Created by Thanh Le on 4/21/19.
 //  Copyright © 2019 Thanh Le. All rights reserved.
 //
 

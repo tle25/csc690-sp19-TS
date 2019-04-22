@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DE702D6226987F2002C7605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702D5226987F2002C7605 /* AppDelegate.swift */; };
-		5DE702D8226987F2002C7605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702D7226987F2002C7605 /* ViewController.swift */; };
-		5DE702DB226987F2002C7605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE702D9226987F2002C7605 /* Main.storyboard */; };
-		5DE702DD226987F3002C7605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE702DC226987F3002C7605 /* Assets.xcassets */; };
-		5DE702E0226987F3002C7605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE702DE226987F3002C7605 /* LaunchScreen.storyboard */; };
-		5DE702EB226987F3002C7605 /* AnimalCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702EA226987F3002C7605 /* AnimalCardGameTests.swift */; };
-		5DE702F6226987F3002C7605 /* AnimalCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE702F5226987F3002C7605 /* AnimalCardGameUITests.swift */; };
+		5D354706226D524C006C709E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354705226D524C006C709E /* AppDelegate.swift */; };
+		5D354708226D524C006C709E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354707226D524C006C709E /* ViewController.swift */; };
+		5D35470B226D524C006C709E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D354709226D524C006C709E /* Main.storyboard */; };
+		5D35470D226D524F006C709E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D35470C226D524F006C709E /* Assets.xcassets */; };
+		5D354710226D524F006C709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D35470E226D524F006C709E /* LaunchScreen.storyboard */; };
+		5D35471B226D524F006C709E /* MemoryPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */; };
+		5D354726226D524F006C709E /* MemoryPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5DE702E7226987F3002C7605 /* PBXContainerItemProxy */ = {
+		5D354717226D524F006C709E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5DE702CA226987F2002C7605 /* Project object */;
+			containerPortal = 5D3546FA226D524C006C709E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DE702D1226987F2002C7605;
-			remoteInfo = AnimalCardGame;
+			remoteGlobalIDString = 5D354701226D524C006C709E;
+			remoteInfo = MemoryPuzzle;
 		};
-		5DE702F2226987F3002C7605 /* PBXContainerItemProxy */ = {
+		5D354722226D524F006C709E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5DE702CA226987F2002C7605 /* Project object */;
+			containerPortal = 5D3546FA226D524C006C709E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DE702D1226987F2002C7605;
-			remoteInfo = AnimalCardGame;
+			remoteGlobalIDString = 5D354701226D524C006C709E;
+			remoteInfo = MemoryPuzzle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5DE702D2226987F2002C7605 /* AnimalCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE702D5226987F2002C7605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DE702D7226987F2002C7605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DE702DA226987F2002C7605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DE702DC226987F3002C7605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DE702DF226987F3002C7605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5DE702E1226987F3002C7605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE702E6226987F3002C7605 /* AnimalCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE702EA226987F3002C7605 /* AnimalCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCardGameTests.swift; sourceTree = "<group>"; };
-		5DE702EC226987F3002C7605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE702F1226987F3002C7605 /* AnimalCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE702F5226987F3002C7605 /* AnimalCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCardGameUITests.swift; sourceTree = "<group>"; };
-		5DE702F7226987F3002C7605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D354702226D524C006C709E /* MemoryPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D354705226D524C006C709E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D354707226D524C006C709E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D35470A226D524C006C709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D35470C226D524F006C709E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D35470F226D524F006C709E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D354711226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D354716226D524F006C709E /* MemoryPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPuzzleTests.swift; sourceTree = "<group>"; };
+		5D35471C226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D354721226D524F006C709E /* MemoryPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPuzzleUITests.swift; sourceTree = "<group>"; };
+		5D354727226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DE702CF226987F2002C7605 /* Frameworks */ = {
+		5D3546FF226D524C006C709E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE702E3226987F3002C7605 /* Frameworks */ = {
+		5D354713226D524F006C709E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE702EE226987F3002C7605 /* Frameworks */ = {
+		5D35471E226D524F006C709E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DE702C9226987F2002C7605 = {
+		5D3546F9226D524C006C709E = {
 			isa = PBXGroup;
 			children = (
-				5DE702D4226987F2002C7605 /* AnimalCardGame */,
-				5DE702E9226987F3002C7605 /* AnimalCardGameTests */,
-				5DE702F4226987F3002C7605 /* AnimalCardGameUITests */,
-				5DE702D3226987F2002C7605 /* Products */,
+				5D354704226D524C006C709E /* MemoryPuzzle */,
+				5D354719226D524F006C709E /* MemoryPuzzleTests */,
+				5D354724226D524F006C709E /* MemoryPuzzleUITests */,
+				5D354703226D524C006C709E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5DE702D3226987F2002C7605 /* Products */ = {
+		5D354703226D524C006C709E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DE702D2226987F2002C7605 /* AnimalCardGame.app */,
-				5DE702E6226987F3002C7605 /* AnimalCardGameTests.xctest */,
-				5DE702F1226987F3002C7605 /* AnimalCardGameUITests.xctest */,
+				5D354702226D524C006C709E /* MemoryPuzzle.app */,
+				5D354716226D524F006C709E /* MemoryPuzzleTests.xctest */,
+				5D354721226D524F006C709E /* MemoryPuzzleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DE702D4226987F2002C7605 /* AnimalCardGame */ = {
+		5D354704226D524C006C709E /* MemoryPuzzle */ = {
 			isa = PBXGroup;
 			children = (
-				5DE702D5226987F2002C7605 /* AppDelegate.swift */,
-				5DE702D7226987F2002C7605 /* ViewController.swift */,
-				5DE702D9226987F2002C7605 /* Main.storyboard */,
-				5DE702DC226987F3002C7605 /* Assets.xcassets */,
-				5DE702DE226987F3002C7605 /* LaunchScreen.storyboard */,
-				5DE702E1226987F3002C7605 /* Info.plist */,
+				5D354705226D524C006C709E /* AppDelegate.swift */,
+				5D354707226D524C006C709E /* ViewController.swift */,
+				5D354709226D524C006C709E /* Main.storyboard */,
+				5D35470C226D524F006C709E /* Assets.xcassets */,
+				5D35470E226D524F006C709E /* LaunchScreen.storyboard */,
+				5D354711226D524F006C709E /* Info.plist */,
 			);
-			path = AnimalCardGame;
+			path = MemoryPuzzle;
 			sourceTree = "<group>";
 		};
-		5DE702E9226987F3002C7605 /* AnimalCardGameTests */ = {
+		5D354719226D524F006C709E /* MemoryPuzzleTests */ = {
 			isa = PBXGroup;
 			children = (
-				5DE702EA226987F3002C7605 /* AnimalCardGameTests.swift */,
-				5DE702EC226987F3002C7605 /* Info.plist */,
+				5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */,
+				5D35471C226D524F006C709E /* Info.plist */,
 			);
-			path = AnimalCardGameTests;
+			path = MemoryPuzzleTests;
 			sourceTree = "<group>";
 		};
-		5DE702F4226987F3002C7605 /* AnimalCardGameUITests */ = {
+		5D354724226D524F006C709E /* MemoryPuzzleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5DE702F5226987F3002C7605 /* AnimalCardGameUITests.swift */,
-				5DE702F7226987F3002C7605 /* Info.plist */,
+				5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */,
+				5D354727226D524F006C709E /* Info.plist */,
 			);
-			path = AnimalCardGameUITests;
+			path = MemoryPuzzleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DE702D1226987F2002C7605 /* AnimalCardGame */ = {
+		5D354701226D524C006C709E /* MemoryPuzzle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DE702FA226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGame" */;
+			buildConfigurationList = 5D35472A226D524F006C709E /* Build configuration list for PBXNativeTarget "MemoryPuzzle" */;
 			buildPhases = (
-				5DE702CE226987F2002C7605 /* Sources */,
-				5DE702CF226987F2002C7605 /* Frameworks */,
-				5DE702D0226987F2002C7605 /* Resources */,
+				5D3546FE226D524C006C709E /* Sources */,
+				5D3546FF226D524C006C709E /* Frameworks */,
+				5D354700226D524C006C709E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnimalCardGame;
-			productName = AnimalCardGame;
-			productReference = 5DE702D2226987F2002C7605 /* AnimalCardGame.app */;
+			name = MemoryPuzzle;
+			productName = MemoryPuzzle;
+			productReference = 5D354702226D524C006C709E /* MemoryPuzzle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5DE702E5226987F3002C7605 /* AnimalCardGameTests */ = {
+		5D354715226D524F006C709E /* MemoryPuzzleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DE702FD226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameTests" */;
+			buildConfigurationList = 5D35472D226D524F006C709E /* Build configuration list for PBXNativeTarget "MemoryPuzzleTests" */;
 			buildPhases = (
-				5DE702E2226987F3002C7605 /* Sources */,
-				5DE702E3226987F3002C7605 /* Frameworks */,
-				5DE702E4226987F3002C7605 /* Resources */,
+				5D354712226D524F006C709E /* Sources */,
+				5D354713226D524F006C709E /* Frameworks */,
+				5D354714226D524F006C709E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DE702E8226987F3002C7605 /* PBXTargetDependency */,
+				5D354718226D524F006C709E /* PBXTargetDependency */,
 			);
-			name = AnimalCardGameTests;
-			productName = AnimalCardGameTests;
-			productReference = 5DE702E6226987F3002C7605 /* AnimalCardGameTests.xctest */;
+			name = MemoryPuzzleTests;
+			productName = MemoryPuzzleTests;
+			productReference = 5D354716226D524F006C709E /* MemoryPuzzleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5DE702F0226987F3002C7605 /* AnimalCardGameUITests */ = {
+		5D354720226D524F006C709E /* MemoryPuzzleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DE70300226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameUITests" */;
+			buildConfigurationList = 5D354730226D524F006C709E /* Build configuration list for PBXNativeTarget "MemoryPuzzleUITests" */;
 			buildPhases = (
-				5DE702ED226987F3002C7605 /* Sources */,
-				5DE702EE226987F3002C7605 /* Frameworks */,
-				5DE702EF226987F3002C7605 /* Resources */,
+				5D35471D226D524F006C709E /* Sources */,
+				5D35471E226D524F006C709E /* Frameworks */,
+				5D35471F226D524F006C709E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DE702F3226987F3002C7605 /* PBXTargetDependency */,
+				5D354723226D524F006C709E /* PBXTargetDependency */,
 			);
-			name = AnimalCardGameUITests;
-			productName = AnimalCardGameUITests;
-			productReference = 5DE702F1226987F3002C7605 /* AnimalCardGameUITests.xctest */;
+			name = MemoryPuzzleUITests;
+			productName = MemoryPuzzleUITests;
+			productReference = 5D354721226D524F006C709E /* MemoryPuzzleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5DE702CA226987F2002C7605 /* Project object */ = {
+		5D3546FA226D524C006C709E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Thanh Le";
 				TargetAttributes = {
-					5DE702D1226987F2002C7605 = {
-						CreatedOnToolsVersion = 10.2;
+					5D354701226D524C006C709E = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
-					5DE702E5226987F3002C7605 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 5DE702D1226987F2002C7605;
+					5D354715226D524F006C709E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5D354701226D524C006C709E;
 					};
-					5DE702F0226987F3002C7605 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = 5DE702D1226987F2002C7605;
+					5D354720226D524F006C709E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 5D354701226D524C006C709E;
 					};
 				};
 			};
-			buildConfigurationList = 5DE702CD226987F2002C7605 /* Build configuration list for PBXProject "AnimalCardGame" */;
+			buildConfigurationList = 5D3546FD226D524C006C709E /* Build configuration list for PBXProject "MemoryPuzzle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 5DE702C9226987F2002C7605;
-			productRefGroup = 5DE702D3226987F2002C7605 /* Products */;
+			mainGroup = 5D3546F9226D524C006C709E;
+			productRefGroup = 5D354703226D524C006C709E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DE702D1226987F2002C7605 /* AnimalCardGame */,
-				5DE702E5226987F3002C7605 /* AnimalCardGameTests */,
-				5DE702F0226987F3002C7605 /* AnimalCardGameUITests */,
+				5D354701226D524C006C709E /* MemoryPuzzle */,
+				5D354715226D524F006C709E /* MemoryPuzzleTests */,
+				5D354720226D524F006C709E /* MemoryPuzzleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5DE702D0226987F2002C7605 /* Resources */ = {
+		5D354700226D524C006C709E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE702E0226987F3002C7605 /* LaunchScreen.storyboard in Resources */,
-				5DE702DD226987F3002C7605 /* Assets.xcassets in Resources */,
-				5DE702DB226987F2002C7605 /* Main.storyboard in Resources */,
+				5D354710226D524F006C709E /* LaunchScreen.storyboard in Resources */,
+				5D35470D226D524F006C709E /* Assets.xcassets in Resources */,
+				5D35470B226D524C006C709E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE702E4226987F3002C7605 /* Resources */ = {
+		5D354714226D524F006C709E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE702EF226987F3002C7605 /* Resources */ = {
+		5D35471F226D524F006C709E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DE702CE226987F2002C7605 /* Sources */ = {
+		5D3546FE226D524C006C709E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE702D8226987F2002C7605 /* ViewController.swift in Sources */,
-				5DE702D6226987F2002C7605 /* AppDelegate.swift in Sources */,
+				5D354708226D524C006C709E /* ViewController.swift in Sources */,
+				5D354706226D524C006C709E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE702E2226987F3002C7605 /* Sources */ = {
+		5D354712226D524F006C709E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE702EB226987F3002C7605 /* AnimalCardGameTests.swift in Sources */,
+				5D35471B226D524F006C709E /* MemoryPuzzleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE702ED226987F3002C7605 /* Sources */ = {
+		5D35471D226D524F006C709E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE702F6226987F3002C7605 /* AnimalCardGameUITests.swift in Sources */,
+				5D354726226D524F006C709E /* MemoryPuzzleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5DE702E8226987F3002C7605 /* PBXTargetDependency */ = {
+		5D354718226D524F006C709E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DE702D1226987F2002C7605 /* AnimalCardGame */;
-			targetProxy = 5DE702E7226987F3002C7605 /* PBXContainerItemProxy */;
+			target = 5D354701226D524C006C709E /* MemoryPuzzle */;
+			targetProxy = 5D354717226D524F006C709E /* PBXContainerItemProxy */;
 		};
-		5DE702F3226987F3002C7605 /* PBXTargetDependency */ = {
+		5D354723226D524F006C709E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5DE702D1226987F2002C7605 /* AnimalCardGame */;
-			targetProxy = 5DE702F2226987F3002C7605 /* PBXContainerItemProxy */;
+			target = 5D354701226D524C006C709E /* MemoryPuzzle */;
+			targetProxy = 5D354722226D524F006C709E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DE702D9226987F2002C7605 /* Main.storyboard */ = {
+		5D354709226D524C006C709E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DE702DA226987F2002C7605 /* Base */,
+				5D35470A226D524C006C709E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5DE702DE226987F3002C7605 /* LaunchScreen.storyboard */ = {
+		5D35470E226D524F006C709E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DE702DF226987F3002C7605 /* Base */,
+				5D35470F226D524F006C709E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5DE702F8226987F3002C7605 /* Debug */ = {
+		5D354728226D524F006C709E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		5DE702F9226987F3002C7605 /* Release */ = {
+		5D354729226D524F006C709E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,158 +428,158 @@
 			};
 			name = Release;
 		};
-		5DE702FB226987F3002C7605 /* Debug */ = {
+		5D35472B226D524F006C709E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AnimalCardGame/Info.plist;
+				INFOPLIST_FILE = MemoryPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5DE702FC226987F3002C7605 /* Release */ = {
+		5D35472C226D524F006C709E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AnimalCardGame/Info.plist;
+				INFOPLIST_FILE = MemoryPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5DE702FE226987F3002C7605 /* Debug */ = {
+		5D35472E226D524F006C709E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AnimalCardGameTests/Info.plist;
+				INFOPLIST_FILE = MemoryPuzzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalCardGame.app/AnimalCardGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryPuzzle.app/MemoryPuzzle";
 			};
 			name = Debug;
 		};
-		5DE702FF226987F3002C7605 /* Release */ = {
+		5D35472F226D524F006C709E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AnimalCardGameTests/Info.plist;
+				INFOPLIST_FILE = MemoryPuzzleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalCardGame.app/AnimalCardGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryPuzzle.app/MemoryPuzzle";
 			};
 			name = Release;
 		};
-		5DE70301226987F3002C7605 /* Debug */ = {
+		5D354731226D524F006C709E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AnimalCardGameUITests/Info.plist;
+				INFOPLIST_FILE = MemoryPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimalCardGame;
+				TEST_TARGET_NAME = MemoryPuzzle;
 			};
 			name = Debug;
 		};
-		5DE70302226987F3002C7605 /* Release */ = {
+		5D354732226D524F006C709E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AnimalCardGameUITests/Info.plist;
+				INFOPLIST_FILE = MemoryPuzzleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.AnimalCardGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AnimalCardGame;
+				TEST_TARGET_NAME = MemoryPuzzle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DE702CD226987F2002C7605 /* Build configuration list for PBXProject "AnimalCardGame" */ = {
+		5D3546FD226D524C006C709E /* Build configuration list for PBXProject "MemoryPuzzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DE702F8226987F3002C7605 /* Debug */,
-				5DE702F9226987F3002C7605 /* Release */,
+				5D354728226D524F006C709E /* Debug */,
+				5D354729226D524F006C709E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DE702FA226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGame" */ = {
+		5D35472A226D524F006C709E /* Build configuration list for PBXNativeTarget "MemoryPuzzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DE702FB226987F3002C7605 /* Debug */,
-				5DE702FC226987F3002C7605 /* Release */,
+				5D35472B226D524F006C709E /* Debug */,
+				5D35472C226D524F006C709E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DE702FD226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameTests" */ = {
+		5D35472D226D524F006C709E /* Build configuration list for PBXNativeTarget "MemoryPuzzleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DE702FE226987F3002C7605 /* Debug */,
-				5DE702FF226987F3002C7605 /* Release */,
+				5D35472E226D524F006C709E /* Debug */,
+				5D35472F226D524F006C709E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DE70300226987F3002C7605 /* Build configuration list for PBXNativeTarget "AnimalCardGameUITests" */ = {
+		5D354730226D524F006C709E /* Build configuration list for PBXNativeTarget "MemoryPuzzleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DE70301226987F3002C7605 /* Debug */,
-				5DE70302226987F3002C7605 /* Release */,
+				5D354731226D524F006C709E /* Debug */,
+				5D354732226D524F006C709E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5DE702CA226987F2002C7605 /* Project object */;
+	rootObject = 5D3546FA226D524C006C709E /* Project object */;
 }

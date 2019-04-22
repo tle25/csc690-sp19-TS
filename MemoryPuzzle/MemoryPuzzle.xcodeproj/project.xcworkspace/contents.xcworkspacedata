@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AnimalCardGame.xcodeproj">
+      location = "self:MemoryPuzzle.xcodeproj">
    </FileRef>
 </Workspace>

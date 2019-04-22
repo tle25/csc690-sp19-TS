@@ -1,14 +1,14 @@
 //
-//  AnimalCardGameUITests.swift
-//  AnimalCardGameUITests
+//  MemoryPuzzleUITests.swift
+//  MemoryPuzzleUITests
 //
-//  Created by Thanh Le on 4/18/19.
+//  Created by Thanh Le on 4/21/19.
 //  Copyright © 2019 Thanh Le. All rights reserved.
 //
 
 import XCTest
 
-class AnimalCardGameUITests: XCTestCase {
+class MemoryPuzzleUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
