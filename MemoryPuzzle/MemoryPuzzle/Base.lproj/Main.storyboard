@@ -42,7 +42,7 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajd-mB-7N5">
-                                <rect key="frame" x="24" y="134" width="370" height="555"/>
+                                <rect key="frame" x="24" y="134" width="370" height="554.5"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-1N-eW2">
@@ -57,8 +57,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sZ-pc-ENK">
-                                <rect key="frame" x="184" y="740" width="46" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00' : 00&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sZ-pc-ENK">
+                                <rect key="frame" x="167" y="727" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -69,20 +69,20 @@
                             <constraint firstItem="zwN-RP-0uw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="6SC-IM-CNe"/>
                             <constraint firstItem="Cxx-kO-HZh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="G53-P4-IOq"/>
                             <constraint firstItem="Ajd-mB-7N5" firstAttribute="top" secondItem="zwN-RP-0uw" secondAttribute="bottom" constant="20" id="H41-sE-1fX"/>
-                            <constraint firstItem="8sZ-pc-ENK" firstAttribute="top" secondItem="Ajd-mB-7N5" secondAttribute="bottom" constant="51" id="HB5-dH-0yf"/>
-                            <constraint firstItem="8sZ-pc-ENK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="Hhb-69-9vJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ajd-mB-7N5" secondAttribute="trailing" constant="20" id="IE2-61-41u"/>
                             <constraint firstItem="Ajd-mB-7N5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="IL2-rT-aAU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zwN-RP-0uw" secondAttribute="trailing" constant="24" id="ISp-vm-7oV"/>
                             <constraint firstItem="7MV-1N-eW2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="176" id="OAU-eG-nCu"/>
+                            <constraint firstItem="7MV-1N-eW2" firstAttribute="top" secondItem="8sZ-pc-ENK" secondAttribute="bottom" constant="50" id="Xcf-jT-3Uq"/>
+                            <constraint firstItem="8sZ-pc-ENK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="XoU-SC-Vqp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Edi-EW-4al" secondAttribute="trailing" constant="169" id="aWV-vZ-TGV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7MV-1N-eW2" secondAttribute="bottom" constant="43" id="fSK-po-EK3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8sZ-pc-ENK" secondAttribute="trailing" constant="167" id="hKp-2i-w9x"/>
                             <constraint firstItem="Edi-EW-4al" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="39" id="iqO-V7-j0u"/>
-                            <constraint firstItem="7MV-1N-eW2" firstAttribute="top" secondItem="8sZ-pc-ENK" secondAttribute="bottom" constant="37.5" id="ltl-Sl-bMm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7MV-1N-eW2" secondAttribute="trailing" constant="175" id="mKQ-lu-Nh0"/>
                             <constraint firstItem="Cxx-kO-HZh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="mZ6-8a-Ii0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8sZ-pc-ENK" secondAttribute="trailing" constant="184" id="nnz-hw-NnU"/>
                             <constraint firstItem="zwN-RP-0uw" firstAttribute="top" secondItem="Edi-EW-4al" secondAttribute="bottom" constant="17" id="rdX-V4-4A8"/>
+                            <constraint firstItem="8sZ-pc-ENK" firstAttribute="top" secondItem="Ajd-mB-7N5" secondAttribute="bottom" constant="38.5" id="rhn-Ln-OPp"/>
                             <constraint firstItem="Edi-EW-4al" firstAttribute="leading" secondItem="Cxx-kO-HZh" secondAttribute="trailing" constant="50" id="xBE-kq-QUU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

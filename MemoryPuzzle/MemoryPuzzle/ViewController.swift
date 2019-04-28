@@ -37,16 +37,36 @@ class ViewController: UIViewController {
     var tilesArr : Array <MyLabel> = []
     var centerArr: Array <CGPoint> = []
     
-    
-    
+    // initialize game ocunt
+    var TimeCounting : Int = 0
+    var gameTimer : Timer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         makeTiles()
         randomize()
         
+        if(gameTimer != nil){
+            gameTimer.invalidate()
+            timeLabel.text = "00\' : 00\""
+        }
+        
+        //set time interver call every 1 second, or minisec = 1/60
+        gameTimer = Timer.scheduledTimer(timeInterval: 1,
+                                         target: self,
+                                         selector: #selector(timerFunction),
+                                         userInfo: nil,
+                                         repeats: true)
+        
     }
     
+    @objc func timerFunction(){
+        TimeCounting += 1
+        
+        let timeMin = String(format: "%02d", TimeCounting / 60) // get min
+        let timeSec = String(format: "%02d", TimeCounting % 60) // get second, get the remaining or time
+        timeLabel.text = "\(timeMin)\' : \(timeSec)\""
+    }
     
     
     //Create randomize number on board
