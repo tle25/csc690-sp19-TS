@@ -14,6 +14,7 @@
 		5D354710226D524F006C709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D35470E226D524F006C709E /* LaunchScreen.storyboard */; };
 		5D35471B226D524F006C709E /* MemoryPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */; };
 		5D354726226D524F006C709E /* MemoryPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */; };
+		5D999393227586F800124DB8 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D999392227586F800124DB8 /* MyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5D354721226D524F006C709E /* MemoryPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPuzzleUITests.swift; sourceTree = "<group>"; };
 		5D354727226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D999392227586F800124DB8 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5D354705226D524C006C709E /* AppDelegate.swift */,
 				5D354707226D524C006C709E /* ViewController.swift */,
+				5D999392227586F800124DB8 /* MyLabel.swift */,
 				5D354709226D524C006C709E /* Main.storyboard */,
 				5D35470C226D524F006C709E /* Assets.xcassets */,
 				5D35470E226D524F006C709E /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				5D354708226D524C006C709E /* ViewController.swift in Sources */,
 				5D354706226D524C006C709E /* AppDelegate.swift in Sources */,
+				5D999393227586F800124DB8 /* MyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

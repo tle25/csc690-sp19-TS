@@ -29,12 +29,48 @@ class ViewController: UIViewController {
     var gameMode : Int = 4
     var tileSize: CGFloat!
     
+    
+    // remember all tiles and centers
+    //go through the tiles and assign a random center
+    
+//    var tilesArr : Array <MyLabel>!
+    var tilesArr : Array <MyLabel> = []
+    var centerArr: Array <CGPoint> = []
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         makeTiles()
+        randomize()
+        
     }
     
+    
+    
+    //Create randomize number on board
+    func randomize(){
+        
+        // Keep temporary centers arr
+        var temCenArr = centerArr
+        
+        for anyTile in tilesArr{
+            let randomIndex: Int = Int(arc4random_uniform(UInt32(centerArr.count)))
+            let randomeCenter = centerArr[randomIndex]
+            anyTile.center = randomeCenter
+            
+            centerArr.remove(at: randomIndex)
+        }
+    }
+    
+    
+    
+    
+    
     func makeTiles(){
+        tilesArr = []
+        
         tileSize = gameView.frame.size.width / CGFloat(gameMode)
         
         
@@ -53,7 +89,9 @@ class ViewController: UIViewController {
             for _ in 0..<col {
                 
                 
-                let tile = UILabel (frame: CGRect(origin: CGPoint.zero, size: tileCgSize))
+//                let tile = UILabel (frame: CGRect(origin: CGPoint.zero, size: tileCgSize))
+                let tile = MyLabel (frame: CGRect(origin: CGPoint.zero, size: tileCgSize))
+
             
                 tile.font = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.bold)
                 
@@ -63,7 +101,15 @@ class ViewController: UIViewController {
                     counter = 0
                 }
                 
-                tile.text = "\(counter)"
+                
+                tile.internalNum = counter
+                tile.text = "\(tile.internalNum!)"
+                tilesArr.append(tile)
+                centerArr.append(tileCenter)
+                
+                
+                
+                
                 counter += 1
                 
                 tile.center = tileCenter
