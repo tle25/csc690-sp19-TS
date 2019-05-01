@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var GameStatusLabel: UILabel!
 
-    var gameMode : Int = 4
+    // 2 - 4 - 6 - 8
+    var gameMode : Int = 6
     var tileSize: CGFloat!
     
     

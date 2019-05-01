@@ -21,6 +21,8 @@
 		5DD7BF9A227951F000FF62D2 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF99227951F000FF62D2 /* Reset.swift */; };
 		5DD7BF9C227951FF00FF62D2 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9B227951FF00FF62D2 /* GameMode.swift */; };
 		5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */; };
+		5DD7BFA02279552300FF62D2 /* TouchEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */; };
+		5DD7BFA22279572300FF62D2 /* FlipToReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		5DD7BF99227951F000FF62D2 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
 		5DD7BF9B227951FF00FF62D2 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
 		5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDidLoad.swift; sourceTree = "<group>"; };
+		5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEnded.swift; sourceTree = "<group>"; };
+		5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipToReveal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +118,9 @@
 				5D354705226D524C006C709E /* AppDelegate.swift */,
 				5D354707226D524C006C709E /* ViewController.swift */,
 				5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */,
+				5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */,
 				5DD7BF97227951D000FF62D2 /* MakeTiles.swift */,
+				5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */,
 				5DD7BF9B227951FF00FF62D2 /* GameMode.swift */,
 				5DD7BF99227951F000FF62D2 /* Reset.swift */,
 				5DD7BF952279517E00FF62D2 /* Randomize.swift */,
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD7BFA02279552300FF62D2 /* TouchEnded.swift in Sources */,
 				5DD7BF9C227951FF00FF62D2 /* GameMode.swift in Sources */,
 				5DD7BF9A227951F000FF62D2 /* Reset.swift in Sources */,
 				5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */,
@@ -284,6 +291,7 @@
 				5DD7BF942279511600FF62D2 /* TimerFunction.swift in Sources */,
 				5D354706226D524C006C709E /* AppDelegate.swift in Sources */,
 				5DD7BF98227951D000FF62D2 /* MakeTiles.swift in Sources */,
+				5DD7BFA22279572300FF62D2 /* FlipToReveal.swift in Sources */,
 				5D999393227586F800124DB8 /* MyLabel.swift in Sources */,
 				5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */,
 			);

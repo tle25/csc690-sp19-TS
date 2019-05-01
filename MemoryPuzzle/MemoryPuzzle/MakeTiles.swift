@@ -35,9 +35,16 @@ extension ViewController{
                     counter = 0
                 }
                 
+                // tracking user's touches on each card
+                tile.isUserInteractionEnabled = true
                 
                 tile.internalNum = counter
-                tile.text = "\(tile.internalNum!)"
+                
+                //show the tile
+//                tile.text = "\(tile.internalNum!)"
+                tile.text = "\(MyLabel.question)"
+                
+                
                 tilesArr.append(tile)
                 centerArr.append(tileCenter)
                 
