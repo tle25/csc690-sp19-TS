@@ -15,6 +15,12 @@
 		5D35471B226D524F006C709E /* MemoryPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */; };
 		5D354726226D524F006C709E /* MemoryPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */; };
 		5D999393227586F800124DB8 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D999392227586F800124DB8 /* MyLabel.swift */; };
+		5DD7BF942279511600FF62D2 /* TimerFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF932279511600FF62D2 /* TimerFunction.swift */; };
+		5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF952279517E00FF62D2 /* Randomize.swift */; };
+		5DD7BF98227951D000FF62D2 /* MakeTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF97227951D000FF62D2 /* MakeTiles.swift */; };
+		5DD7BF9A227951F000FF62D2 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF99227951F000FF62D2 /* Reset.swift */; };
+		5DD7BF9C227951FF00FF62D2 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9B227951FF00FF62D2 /* GameMode.swift */; };
+		5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPuzzleUITests.swift; sourceTree = "<group>"; };
 		5D354727226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D999392227586F800124DB8 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		5DD7BF932279511600FF62D2 /* TimerFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFunction.swift; sourceTree = "<group>"; };
+		5DD7BF952279517E00FF62D2 /* Randomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomize.swift; sourceTree = "<group>"; };
+		5DD7BF97227951D000FF62D2 /* MakeTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTiles.swift; sourceTree = "<group>"; };
+		5DD7BF99227951F000FF62D2 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
+		5DD7BF9B227951FF00FF62D2 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDidLoad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 			children = (
 				5D354705226D524C006C709E /* AppDelegate.swift */,
 				5D354707226D524C006C709E /* ViewController.swift */,
+				5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */,
+				5DD7BF97227951D000FF62D2 /* MakeTiles.swift */,
+				5DD7BF9B227951FF00FF62D2 /* GameMode.swift */,
+				5DD7BF99227951F000FF62D2 /* Reset.swift */,
+				5DD7BF952279517E00FF62D2 /* Randomize.swift */,
+				5DD7BF932279511600FF62D2 /* TimerFunction.swift */,
 				5D999392227586F800124DB8 /* MyLabel.swift */,
 				5D354709226D524C006C709E /* Main.storyboard */,
 				5D35470C226D524F006C709E /* Assets.xcassets */,
@@ -259,9 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD7BF9C227951FF00FF62D2 /* GameMode.swift in Sources */,
+				5DD7BF9A227951F000FF62D2 /* Reset.swift in Sources */,
+				5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */,
 				5D354708226D524C006C709E /* ViewController.swift in Sources */,
+				5DD7BF942279511600FF62D2 /* TimerFunction.swift in Sources */,
 				5D354706226D524C006C709E /* AppDelegate.swift in Sources */,
+				5DD7BF98227951D000FF62D2 /* MakeTiles.swift in Sources */,
 				5D999393227586F800124DB8 /* MyLabel.swift in Sources */,
+				5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
