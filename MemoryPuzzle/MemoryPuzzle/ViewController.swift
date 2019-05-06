@@ -31,6 +31,15 @@ class ViewController: UIViewController {
     // initialize game ocunt
     var TimeCounting : Int = 0
     var gameTimer : Timer!
+    
+    var firstTile: MyLabel!
+    var secondTile: MyLabel!
+//    var firstTile = MyLabel!
+//    var secondTile = MyLabel!
+    
+    var compareNow = false
+
+    
 
 }
 
