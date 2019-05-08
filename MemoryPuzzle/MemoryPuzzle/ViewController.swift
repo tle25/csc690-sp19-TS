@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var GameStatusLabel: UILabel!
 
     // 2 - 4 - 6 - 8
-    var gameMode : Int = 6
+    var gameMode : Int = 2
     var tileSize: CGFloat!
     
     
@@ -38,8 +38,9 @@ class ViewController: UIViewController {
 //    var secondTile = MyLabel!
     
     var compareNow = false
-
     
+    var foundTilesArr: Array <MyLabel> = []
 
+    var aTileIsAnimating = false
 }
 

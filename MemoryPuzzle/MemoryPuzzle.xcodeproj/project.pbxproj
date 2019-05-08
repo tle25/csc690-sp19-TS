@@ -27,6 +27,7 @@
 		5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */; };
 		5DD7BFA02279552300FF62D2 /* TouchEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */; };
 		5DD7BFA22279572300FF62D2 /* FlipToReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */; };
+		5DF94A2A22828DCB00C303FC /* WonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF94A2922828DCB00C303FC /* WonState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDidLoad.swift; sourceTree = "<group>"; };
 		5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEnded.swift; sourceTree = "<group>"; };
 		5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipToReveal.swift; sourceTree = "<group>"; };
+		5DF94A2922828DCB00C303FC /* WonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				5D1C6BBD227FF9C400F751A4 /* Compare.swift */,
 				5D1C6BBF227FFB5500F751A4 /* FlipToSmile.swift */,
 				5D1C6BC1227FFB8400F751A4 /* FlipBack.swift */,
+				5DF94A2922828DCB00C303FC /* WonState.swift */,
 			);
 			path = MemoryPuzzle;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				5DD7BFA22279572300FF62D2 /* FlipToReveal.swift in Sources */,
 				5D999393227586F800124DB8 /* MyLabel.swift in Sources */,
 				5D1C6BBC227FF8D300F751A4 /* RevealAndCompare.swift in Sources */,
+				5DF94A2A22828DCB00C303FC /* WonState.swift in Sources */,
 				5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

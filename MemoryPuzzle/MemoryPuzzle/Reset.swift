@@ -4,6 +4,11 @@ extension ViewController{
 
     @IBAction func resetAction(_ sender: Any) {
         TimeCounting = 0
+        foundTilesArr = []
+        GameStatusLabel.isHidden = true
+        firstTile = nil
+        secondTile = nil
+        compareNow = false
         
         for any in tilesArr {
             any.removeFromSuperview()

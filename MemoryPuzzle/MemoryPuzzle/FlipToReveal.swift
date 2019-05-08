@@ -14,7 +14,7 @@ extension ViewController{
                             inpTile.text = "\(inpTile.internalNum!)"
                             },
                           
-                          completion: nil
+                          completion: {(res) in self.aTileIsAnimating = false}
                         )
     }
     

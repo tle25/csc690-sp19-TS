@@ -15,6 +15,7 @@ extension ViewController{
                           completion: { (res) in
                             // Go to the compare b/w 2 cards
                             self.compare()
+                            self.aTileIsAnimating = true
                         }
         )
     }

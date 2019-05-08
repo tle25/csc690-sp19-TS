@@ -12,7 +12,7 @@ extension ViewController{
                             inpTile.backgroundColor = UIColor.darkGray
                             inpTile.text = "\(MyLabel.smile)" },
                           
-                          completion: nil
+                          completion: {(res) in self.aTileIsAnimating = false}
         )
     }
 }

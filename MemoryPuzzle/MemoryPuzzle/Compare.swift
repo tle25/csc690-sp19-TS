@@ -6,6 +6,10 @@ extension ViewController{
             flipToSmile(inpTile: firstTile)
             flipToSmile(inpTile: secondTile)
 
+            foundTilesArr.append(firstTile)
+            foundTilesArr.append(secondTile)
+            
+            didWeWin()
         }
         else{
             flipBack(inpTile: firstTile)
