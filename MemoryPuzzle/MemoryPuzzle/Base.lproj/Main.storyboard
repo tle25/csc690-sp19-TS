@@ -31,11 +31,10 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zwN-RP-0uw">
                                 <rect key="frame" x="24" y="86" width="366" height="29"/>
                                 <segments>
+                                    <segment title="2x3"/>
                                     <segment title="4x6"/>
-                                    <segment title="6x9"/>
+                                    <segment title="6x8"/>
                                     <segment title="8x12"/>
-                                    <segment title="10x15"/>
-                                    <segment title="12x18"/>
                                 </segments>
                                 <connections>
                                     <action selector="gameModeAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="b87-7e-UW6"/>
@@ -45,8 +44,8 @@
                                 <rect key="frame" x="24" y="134" width="370" height="554.5"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-1N-eW2">
-                                <rect key="frame" x="176" y="798" width="63" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7MV-1N-eW2">
+                                <rect key="frame" x="127" y="798" width="163" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
