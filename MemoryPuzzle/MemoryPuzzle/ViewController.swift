@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     var centerArr: Array <CGPoint> = []
     
     // initialize game ocunt
-    var TimeCounting : Int = 0
+    var TimeCounting : Int = 60
     var gameTimer : Timer!
     
     var firstTile: MyLabel!
