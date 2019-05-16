@@ -3,7 +3,8 @@
 Members: Shuyuan Deng,
          Thanh Le
          
-Feature: and estimate time to implement
+Feature and estimate time to implement:
+
     Focus on each card when clicked, about 1 hours
     FInd and pair matching cards, about 10 hours
     Level option, 1,2,3,.., about 1 hour
