@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1C6BBC227FF8D300F751A4 /* RevealAndCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C6BBB227FF8D300F751A4 /* RevealAndCompare.swift */; };
+		5D1C6BBE227FF9C400F751A4 /* Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C6BBD227FF9C400F751A4 /* Compare.swift */; };
+		5D1C6BC0227FFB5500F751A4 /* FlipToSmile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C6BBF227FFB5500F751A4 /* FlipToSmile.swift */; };
+		5D1C6BC2227FFB8400F751A4 /* FlipBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C6BC1227FFB8400F751A4 /* FlipBack.swift */; };
 		5D354706226D524C006C709E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354705226D524C006C709E /* AppDelegate.swift */; };
 		5D354708226D524C006C709E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354707226D524C006C709E /* ViewController.swift */; };
 		5D35470B226D524C006C709E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D354709226D524C006C709E /* Main.storyboard */; };
@@ -14,6 +18,16 @@
 		5D354710226D524F006C709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D35470E226D524F006C709E /* LaunchScreen.storyboard */; };
 		5D35471B226D524F006C709E /* MemoryPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */; };
 		5D354726226D524F006C709E /* MemoryPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */; };
+		5D999393227586F800124DB8 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D999392227586F800124DB8 /* MyLabel.swift */; };
+		5DD7BF942279511600FF62D2 /* TimerFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF932279511600FF62D2 /* TimerFunction.swift */; };
+		5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF952279517E00FF62D2 /* Randomize.swift */; };
+		5DD7BF98227951D000FF62D2 /* MakeTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF97227951D000FF62D2 /* MakeTiles.swift */; };
+		5DD7BF9A227951F000FF62D2 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF99227951F000FF62D2 /* Reset.swift */; };
+		5DD7BF9C227951FF00FF62D2 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9B227951FF00FF62D2 /* GameMode.swift */; };
+		5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */; };
+		5DD7BFA02279552300FF62D2 /* TouchEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */; };
+		5DD7BFA22279572300FF62D2 /* FlipToReveal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */; };
+		5DF94A2A22828DCB00C303FC /* WonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF94A2922828DCB00C303FC /* WonState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D1C6BBB227FF8D300F751A4 /* RevealAndCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealAndCompare.swift; sourceTree = "<group>"; };
+		5D1C6BBD227FF9C400F751A4 /* Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compare.swift; sourceTree = "<group>"; };
+		5D1C6BBF227FFB5500F751A4 /* FlipToSmile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipToSmile.swift; sourceTree = "<group>"; };
+		5D1C6BC1227FFB8400F751A4 /* FlipBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipBack.swift; sourceTree = "<group>"; };
 		5D354702226D524C006C709E /* MemoryPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D354705226D524C006C709E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D354707226D524C006C709E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,16 @@
 		5D354721226D524F006C709E /* MemoryPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPuzzleUITests.swift; sourceTree = "<group>"; };
 		5D354727226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D999392227586F800124DB8 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		5DD7BF932279511600FF62D2 /* TimerFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFunction.swift; sourceTree = "<group>"; };
+		5DD7BF952279517E00FF62D2 /* Randomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomize.swift; sourceTree = "<group>"; };
+		5DD7BF97227951D000FF62D2 /* MakeTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTiles.swift; sourceTree = "<group>"; };
+		5DD7BF99227951F000FF62D2 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
+		5DD7BF9B227951FF00FF62D2 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDidLoad.swift; sourceTree = "<group>"; };
+		5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchEnded.swift; sourceTree = "<group>"; };
+		5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipToReveal.swift; sourceTree = "<group>"; };
+		5DF94A2922828DCB00C303FC /* WonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +127,24 @@
 			children = (
 				5D354705226D524C006C709E /* AppDelegate.swift */,
 				5D354707226D524C006C709E /* ViewController.swift */,
+				5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */,
+				5DD7BFA12279572300FF62D2 /* FlipToReveal.swift */,
+				5DD7BF97227951D000FF62D2 /* MakeTiles.swift */,
+				5DD7BF9F2279552300FF62D2 /* TouchEnded.swift */,
+				5DD7BF9B227951FF00FF62D2 /* GameMode.swift */,
+				5DD7BF99227951F000FF62D2 /* Reset.swift */,
+				5DD7BF952279517E00FF62D2 /* Randomize.swift */,
+				5DD7BF932279511600FF62D2 /* TimerFunction.swift */,
+				5D999392227586F800124DB8 /* MyLabel.swift */,
 				5D354709226D524C006C709E /* Main.storyboard */,
 				5D35470C226D524F006C709E /* Assets.xcassets */,
 				5D35470E226D524F006C709E /* LaunchScreen.storyboard */,
 				5D354711226D524F006C709E /* Info.plist */,
+				5D1C6BBB227FF8D300F751A4 /* RevealAndCompare.swift */,
+				5D1C6BBD227FF9C400F751A4 /* Compare.swift */,
+				5D1C6BBF227FFB5500F751A4 /* FlipToSmile.swift */,
+				5D1C6BC1227FFB8400F751A4 /* FlipBack.swift */,
+				5DF94A2922828DCB00C303FC /* WonState.swift */,
 			);
 			path = MemoryPuzzle;
 			sourceTree = "<group>";
@@ -256,8 +298,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD7BFA02279552300FF62D2 /* TouchEnded.swift in Sources */,
+				5DD7BF9C227951FF00FF62D2 /* GameMode.swift in Sources */,
+				5D1C6BBE227FF9C400F751A4 /* Compare.swift in Sources */,
+				5DD7BF9A227951F000FF62D2 /* Reset.swift in Sources */,
+				5DD7BF9E2279526F00FF62D2 /* GameDidLoad.swift in Sources */,
 				5D354708226D524C006C709E /* ViewController.swift in Sources */,
+				5DD7BF942279511600FF62D2 /* TimerFunction.swift in Sources */,
 				5D354706226D524C006C709E /* AppDelegate.swift in Sources */,
+				5D1C6BC0227FFB5500F751A4 /* FlipToSmile.swift in Sources */,
+				5D1C6BC2227FFB8400F751A4 /* FlipBack.swift in Sources */,
+				5DD7BF98227951D000FF62D2 /* MakeTiles.swift in Sources */,
+				5DD7BFA22279572300FF62D2 /* FlipToReveal.swift in Sources */,
+				5D999393227586F800124DB8 /* MyLabel.swift in Sources */,
+				5D1C6BBC227FF8D300F751A4 /* RevealAndCompare.swift in Sources */,
+				5DF94A2A22828DCB00C303FC /* WonState.swift in Sources */,
+				5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
