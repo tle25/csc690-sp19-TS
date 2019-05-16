@@ -4,7 +4,7 @@ extension ViewController{
     func revealAndCompare(inpTile: MyLabel){
         UIView.transition(with: inpTile,
                           
-                          duration: 0.3,
+                          duration: 0.4,
                           
                           options: UIView.AnimationOptions.transitionFlipFromLeft,
                           

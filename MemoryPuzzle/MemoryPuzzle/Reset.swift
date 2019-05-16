@@ -3,7 +3,12 @@ import UIKit
 extension ViewController{
 
     @IBAction func resetAction(_ sender: Any) {
-        TimeCounting = gameMode/2 * 60
+        if(gameMode == 1){
+            TimeCounting = 30
+        }
+        else{
+            TimeCounting = gameMode/2 * 60 - 30
+        }
 //        TimeDecrease = 60
         foundTilesArr = []
         GameStatusLabel.isHidden = true

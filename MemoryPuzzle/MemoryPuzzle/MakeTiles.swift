@@ -11,7 +11,6 @@ extension ViewController{
         //       tileSize - 5 for the gap between each card
         let tileCgSize = CGSize(width: tileSize - 5, height: tileSize - 5)
         
-        
         var xCenter = tileSize / 2.0
         var yCenter = tileSize / 2.0
         var counter = 0
@@ -48,15 +47,13 @@ extension ViewController{
                 tilesArr.append(tile)
                 centerArr.append(tileCenter)
                 
-                
-                
-                
+
                 counter += 1
                 
                 tile.center = tileCenter
                 xCenter += tileSize
                 
-                tile.backgroundColor = UIColor.darkGray
+                tile.backgroundColor = UIColor.blue
                 gameView.addSubview(tile)
             }
             xCenter = tileSize/2

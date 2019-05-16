@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var GameStatusLabel: UILabel!
 
-    // 2 - 4 - 6 - 8
+//    starting game level
     var gameMode : Int = 2
     var tileSize: CGFloat!
     
