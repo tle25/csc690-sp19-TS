@@ -42,7 +42,11 @@
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajd-mB-7N5">
                                 <rect key="frame" x="24" y="135" width="370" height="554.33333333333337"/>
+<<<<<<< HEAD
+                                <color key="backgroundColor" red="0.99414043949999997" green="1" blue="0.77627488239999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
                                 <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+>>>>>>> 4ea1685ab1903a4658d8711a21eef3a6a27c43c2
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GAME MODE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxx-kO-HZh">
                                 <rect key="frame" x="24" y="57" width="101" height="21"/>

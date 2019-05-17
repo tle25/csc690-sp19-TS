@@ -16,9 +16,9 @@ class MyLabel: UILabel {
     
     
     //store value here
-    static var question = "????" // default presentation of all tiles
+    static var question = "❔❔❔❔❔"// default presentation of all tiles
     //    press: control + command + space to get emoji
-    static var smile = "🐶🐶"  // show this when pair found
+    static var smile = "🐶🐶🐶🐶🐶"  // show this when pair found
     
 
 }

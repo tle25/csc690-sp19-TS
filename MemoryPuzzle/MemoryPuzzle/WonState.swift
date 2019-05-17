@@ -11,11 +11,11 @@ extension ViewController{
         
 
             tileSize = gameView.frame.size.width
-            let tileCgSize = CGSize(width: tileSize, height: tileSize)
+            let tileCgSize = CGSize(width: tileSize, height: tileSize+100)
             let tile = UILabel (frame: CGRect(origin: CGPoint.zero, size: tileCgSize))
             tile.textColor = .white
-            tile.font = UIFont.systemFont(ofSize: 40, weight: UIFont.Weight.bold)
-            tile.text = "Passed"
+            tile.font = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.bold)
+            tile.text = "Good Job, You Passed!!!"
             gameView.addSubview(tile)
 //            Lvl up
 

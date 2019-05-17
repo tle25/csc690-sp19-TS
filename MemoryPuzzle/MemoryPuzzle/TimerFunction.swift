@@ -19,12 +19,14 @@ extension ViewController{
             
 
             tileSize = gameView.frame.size.width
-            let tileCgSize = CGSize(width: tileSize, height: tileSize)
+            let tileCgSize = CGSize(width: tileSize, height: tileSize+250)
             let tile = UILabel (frame: CGRect(origin: CGPoint.zero, size: tileCgSize))
-            tile.textColor = .yellow
-            tile.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.bold)
-            tile.text = "You Lose!! Press 'reset' to play again"
+            tile.textColor = .red
+            tile.font = UIFont.systemFont(ofSize: 40, weight: UIFont.Weight.bold)
+            tile.text = "You Lose!!!! ☺️"
             gameView.addSubview(tile)
+            
+            
             
         }
     }

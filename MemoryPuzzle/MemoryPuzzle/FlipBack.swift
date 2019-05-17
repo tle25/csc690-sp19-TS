@@ -7,10 +7,9 @@ extension ViewController{
                           duration: 0.4,
                           
                           options: UIView.AnimationOptions.transitionFlipFromRight,
-                          
                           animations: {
                                 inpTile.backgroundColor = UIColor.blue
-                                inpTile.text = "\(MyLabel.question)" },                          
+                                inpTile.text = "\(MyLabel.question)" },
                           completion: {(res) in self.aTileIsAnimating = false}
         )
     }
