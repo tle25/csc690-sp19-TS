@@ -1,0 +1,60 @@
+CSC 690 Project Documentation
+Spring 2019
+
+Thanh Le, Shuyuan Deng
+Milestone 2
+Class.Section 01
+GitHub Repository Link
+https://github.com/tle25/csc690-sp19-TS.git
+
+Table of Contents
+Introduction	3
+Project Overview	3
+Technical Overview	3
+Summary of Work Completed	3
+Development Environment	3
+How to Build/Import your Project	3
+How to Run your Project	3
+Assumption Made	4
+Implementation Discussion	4
+Project Reflection	4
+Project Conclusion/Results	4
+
+Introduction
+Project Overview
+	Memory Puzzle : A game that let user to flick the card and memorizing the contents, then keep flick cards until both cards are the same.
+Technical Overview
+Macbook Pro
+	Xcode 10.2.1
+	Iphone Xs Max
+	Swift 5
+Summary of Work Completed
+Must-have feature:
+1. A table view shall have frame that allow to store different cards with context.
+2. The card shall be able to be flick and show the content.
+3. When two cards are the same, they shall stay in positive position. When the cards are different, card shall flick back.
+4. When all cards are in positive position, the game shall show the winning message.
+5. A timer shall able to countdown the time.
+6. When user wins in one level shall be able jump to the next level.
+7. When time is up, a lose message shall show up.
+
+
+Development Environment
+	Macbook Pro
+	Xcode 10.2.1
+	Iphone Xs Max
+	Swift 5
+
+How to Build/Import your Project
+	Clone the package from GitHub, then open the project by using Xcode 10.2.1.
+How to Run your Project
+	Click the run Botton for this project.
+Assumption Made
+	User shall know how to download and install execution software, and able to identify the function of the Xcode.
+Implementation Discussion
+	Here are more function we want to implement into the app, but for the reason of time limit, we decide to make a fully runnable app for the final.
+
+Project Reflection
+	Here are other good ideas about our game, but have more difficulty to implement the function, and using the function we familiar is decided.
+Project Conclusion/Results
+	App is not as fancy as we are expected, but all the listed must-have features are executable and the game is run as our design.
