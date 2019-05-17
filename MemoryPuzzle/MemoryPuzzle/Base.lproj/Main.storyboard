@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edi-EW-4al">
-                                <rect key="frame" x="275" y="50" width="119" height="30"/>
+                                <rect key="frame" x="295" y="50" width="99" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,7 +42,7 @@
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajd-mB-7N5">
                                 <rect key="frame" x="24" y="135" width="370" height="554.33333333333337"/>
-                                <color key="backgroundColor" red="0.34275071927618167" green="0.47450980390000003" blue="0.16905774106262633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GAME MODE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxx-kO-HZh">
                                 <rect key="frame" x="24" y="57" width="101" height="21"/>
@@ -82,7 +82,7 @@
                             <constraint firstItem="Cxx-kO-HZh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="mZ6-8a-Ii0"/>
                             <constraint firstItem="zwN-RP-0uw" firstAttribute="top" secondItem="Edi-EW-4al" secondAttribute="bottom" constant="7" id="rdX-V4-4A8"/>
                             <constraint firstItem="8sZ-pc-ENK" firstAttribute="top" secondItem="Ajd-mB-7N5" secondAttribute="bottom" constant="38.5" id="rhn-Ln-OPp"/>
-                            <constraint firstItem="Edi-EW-4al" firstAttribute="leading" secondItem="Cxx-kO-HZh" secondAttribute="trailing" constant="150" id="xBE-kq-QUU"/>
+                            <constraint firstItem="Edi-EW-4al" firstAttribute="leading" secondItem="Cxx-kO-HZh" secondAttribute="trailing" constant="170" id="xBE-kq-QUU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
