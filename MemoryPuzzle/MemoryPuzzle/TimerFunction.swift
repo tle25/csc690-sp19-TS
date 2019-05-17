@@ -12,11 +12,12 @@ extension ViewController{
         
         //Stop the game if time is up
         if(TimeCounting == 0){
-            let txt = "You lose :("
+//            let txt = "You lose :("
             gameTimer.invalidate()
             GameStatusLabel.isHidden = false
-            GameStatusLabel.text = txt
+            GameStatusLabel.text = "You lose :("
             
+
             tileSize = gameView.frame.size.width
             let tileCgSize = CGSize(width: tileSize, height: tileSize)
             let tile = UILabel (frame: CGRect(origin: CGPoint.zero, size: tileCgSize))
@@ -24,6 +25,7 @@ extension ViewController{
             tile.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.bold)
             tile.text = "You Lose!! Press 'reset' to play again"
             gameView.addSubview(tile)
+            
         }
     }
 }

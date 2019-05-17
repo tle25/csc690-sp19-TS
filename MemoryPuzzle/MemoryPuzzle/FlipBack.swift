@@ -10,8 +10,7 @@ extension ViewController{
                           
                           animations: {
                                 inpTile.backgroundColor = UIColor.blue
-                                inpTile.text = "\(MyLabel.question)" },
-                          
+                                inpTile.text = "\(MyLabel.question)" },                          
                           completion: {(res) in self.aTileIsAnimating = false}
         )
     }

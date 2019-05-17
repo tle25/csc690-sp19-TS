@@ -29,7 +29,7 @@ extension ViewController{
                 tile.font = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.bold)
                 
                 let tileCenter = CGPoint(x: xCenter, y: yCenter)
-                
+
                 if counter == row * col / 2{
                     counter = 0
                 }

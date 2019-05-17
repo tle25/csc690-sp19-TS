@@ -18,6 +18,7 @@
 		5D354710226D524F006C709E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D35470E226D524F006C709E /* LaunchScreen.storyboard */; };
 		5D35471B226D524F006C709E /* MemoryPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D35471A226D524F006C709E /* MemoryPuzzleTests.swift */; };
 		5D354726226D524F006C709E /* MemoryPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */; };
+		5D5B97F2228E2F9300C25B0C /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D5B97F1228E2F9300C25B0C /* question.png */; };
 		5D999393227586F800124DB8 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D999392227586F800124DB8 /* MyLabel.swift */; };
 		5DD7BF942279511600FF62D2 /* TimerFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF932279511600FF62D2 /* TimerFunction.swift */; };
 		5DD7BF962279517E00FF62D2 /* Randomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD7BF952279517E00FF62D2 /* Randomize.swift */; };
@@ -65,6 +66,7 @@
 		5D354721226D524F006C709E /* MemoryPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D354725226D524F006C709E /* MemoryPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryPuzzleUITests.swift; sourceTree = "<group>"; };
 		5D354727226D524F006C709E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D5B97F1228E2F9300C25B0C /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = ../../../question.png; sourceTree = "<group>"; };
 		5D999392227586F800124DB8 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
 		5DD7BF932279511600FF62D2 /* TimerFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFunction.swift; sourceTree = "<group>"; };
 		5DD7BF952279517E00FF62D2 /* Randomize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomize.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		5D354704226D524C006C709E /* MemoryPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				5D5B97F1228E2F9300C25B0C /* question.png */,
 				5D354705226D524C006C709E /* AppDelegate.swift */,
 				5D354707226D524C006C709E /* ViewController.swift */,
 				5DD7BF9D2279526F00FF62D2 /* GameDidLoad.swift */,
@@ -274,6 +277,7 @@
 				5D354710226D524F006C709E /* LaunchScreen.storyboard in Resources */,
 				5D35470D226D524F006C709E /* Assets.xcassets in Resources */,
 				5D35470B226D524C006C709E /* Main.storyboard in Resources */,
+				5D5B97F2228E2F9300C25B0C /* question.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +492,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MemoryPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,6 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -505,7 +512,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MemoryPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,6 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thanhle.MemoryPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

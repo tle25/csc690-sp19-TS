@@ -9,6 +9,8 @@ extension ViewController{
         else{
             TimeCounting = gameMode/2 * 60 - 30
         }
+
+        
 //        TimeDecrease = 60
         foundTilesArr = []
         GameStatusLabel.isHidden = true
