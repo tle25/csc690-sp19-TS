@@ -1,5 +1,5 @@
 # csc690-sp19-TS
-
+[![Run on Repl.it](https://repl.it/badge/github/tle25/csc690-sp19-TS)](https://repl.it/github/tle25/csc690-sp19-TS)
 Members: Shuyuan Deng,
          Thanh Le
      
